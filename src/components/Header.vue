@@ -12,36 +12,17 @@
 </template>
 
 <script>
-import GithubButton from './GithubButton'
-export default {
-  name: 'Header',
-  components: {GithubButton},
-  data() {
-    return {
-      showLatestConf: false,
-      showStr: ''
-    }
-  },
-  mounted() {
-    this.$http.get('https://api.github.com/repos/ccfddl/ccf-deadlines/commits?page=1&per_page=10').then(response => {
-      let len = response.body.length
-
-      for(let i = 0; i < len; i++) {
-        let str = response.body[i].commit.message
-        let strArr = str.split(' ')
-        let idx=str.indexOf('(');
-        if(strArr[0] === 'Update'){
-          if(idx !== -1){
-            str = str.substr(0, idx)
-          }
-          this.showStr = str
-          this.showLatestConf = true
-          break;
-        }
-      }
-    })
-  },
-}
+// import GithubButton from './GithubButton'
+// export default {
+//   name: 'Header',
+//   components: {GithubButton},
+//   data() {
+//     return {
+//       showLatestConf: false,
+//       showStr: ''
+//     }
+//   },
+// }
 </script>
 
 <style scoped>
