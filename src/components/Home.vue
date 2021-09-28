@@ -7,7 +7,7 @@
     </el-checkbox-group>
     <el-row class="timezone">
       <div style="float: left">
-        Deadlines are shown in {{ timeZone }} time.
+        Deadlines are shown in <div style="display: inline;color: red">{{ timeZone }}</div> time.
       </div>
       <div style="float: left; width: 150px">
         <el-input prefix-icon="el-icon-search" size="mini"
