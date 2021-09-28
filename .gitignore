@@ -2,7 +2,7 @@
 node_modules
 dist
 public/conference
-
+src/conference
 
 # local env files
 .env.local

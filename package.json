@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "powershell ./build.ps1 dev && vue-cli-service serve ",
+    "build": "powershell ./build.ps1 deploy && vue-cli-service build ",
+    "lint": "vue-cli-service lint",
+    "clean": "powershell Remove-Item './src/conference' -force -Recurse"
   },
   "dependencies": {
     "@chenfengyuan/vue-countdown": "^1.1.5",
