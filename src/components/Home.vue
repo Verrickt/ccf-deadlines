@@ -31,7 +31,7 @@
         <template slot-scope="scope">
           <div :class="{ 'conf-fin': scope.row.status === 'FIN' }">
             <el-row class="conf-title">
-              <a :href="generateDBLP(scope.row.dblp)">{{scope.row.title}}</a> {{scope.row.year}}
+              <a :href="generateDBLP(scope.row.dblp)" target="_blank">{{scope.row.title}}</a> {{scope.row.year}}
               <i v-if="scope.row.isLike===true" class="el-icon-star-on" style="color: #FBCA04" @click="handleClickIcon(scope.row, true)"/>
               <i v-else class="el-icon-star-off" @click="handleClickIcon(scope.row, false)"/>
             </el-row>
@@ -53,13 +53,13 @@
             </el-row>
             <el-row>
               <div v-if="scope.row.status === 'TBD'">
-                Deadline: <a href="https://github.com/ccfddl/ccf-deadlines/pulls">pull request to update</a>
+                Deadline: <a href="https://github.com/ccfddl/ccf-deadlines/pulls" >pull request to update</a>
               </div>
               <div v-else>
                 Deadline: {{scope.row.localDDL}} ({{scope.row.originDDL}})
               </div>
             </el-row>
-            <el-row>website: <a :href="scope.row.link">{{ scope.row.link }}</a> </el-row>
+            <el-row>website: <a :href="scope.row.link" target="_blank" >{{ scope.row.link }}</a> </el-row>
   <!--          <el-row>subscribe</el-row>-->
             <TimeLine v-if="scope.row.status === 'RUN'" :ddls="scope.row.ddls"></TimeLine>
           </div>
@@ -92,6 +92,7 @@ import TimeLine from "./TimeLine";
 const yaml = require('js-yaml')
 const moment = require('moment-timezone')
 const tz = moment.tz.guess()
+console.log(yaml)
 export default {
   name: "Home",
   components: {
