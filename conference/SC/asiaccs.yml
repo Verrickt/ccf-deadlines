@@ -2,7 +2,7 @@
   description: Asia Conference on Computer and Communications Security
   sub: SC
   rank: C
-  dblp: ccs
+  dblp: asiaccs
   confs:
     - year: 2022
       id: asiaccs22

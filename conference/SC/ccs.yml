@@ -24,3 +24,12 @@
       timezone: UTC-12
       date: November 15-19, 2021
       place: Seoul, South Korea
+
+    - year: 2022
+      id: ccs22
+      link: https://www.sigsac.org/ccs/CCS2022/
+      timeline:
+        - deadline: TBD
+      timezone: UTC-12
+      date: TBD
+      place: TBD
