@@ -13,3 +13,10 @@
       timezone: UTC+0
       date: December 5-14, 2021
       place: Virtual
+    - year: 2022
+      id: nips22
+      link: https://neurips.cc/Conferences/2022
+      timeline:
+        - deadline: TBD
+      date: TBD
+      place: TBD

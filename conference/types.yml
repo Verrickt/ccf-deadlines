@@ -13,8 +13,8 @@
 #   sub: CT
 # - name: 计算机图形学与多媒体
 #   sub: CG
-# - name: 人工智能
-#   sub: AI
+- name: 人工智能
+  sub: AI
 # - name: 人机交互与普适计算
 #   sub: HI
 - name: 交叉/综合/新兴
