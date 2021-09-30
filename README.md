@@ -1,7 +1,6 @@
 # CCF-Deadlines
 [![LICENSE](https://img.shields.io/github/license/ccfddl/ccf-deadlines)](https://github.com/ccfddl/ccf-deadlines/blob/main/LICENSE)
 [![Build Status](https://img.shields.io/github/workflow/status/ccfddl/ccf-deadlines/Deploy)](https://github.com/ccfddl/ccf-deadlines/commits/main)
-[![Open PRs](https://img.shields.io/github/issues-pr/ccfddl/ccf-deadlines)](https://github.com/ccfddl/ccf-deadlines/pulls)
 
 English | [简体中文](./README.zh-CN.md)
 
@@ -14,14 +13,13 @@ Preview: [Demo](https://ccfddl.github.io/)
 **No More Finding and Time Conversion on Your Own!**
 
 ## Add/Update a conference
-Contributions are welcomed and greatly appreciated! For further contribution and waterblowing, email [chenzh@stu.ecnu.edu.cn](chenzh@stu.ecnu.edu.cn) through your edu email address with wechatid to join the [CCFDDL](https://github.com/ccfddl) organization.
 
 To add or update information:
 - Fork the repo
 - Add/Update the yml file of conference/conf_type/conf_name.yml
-- Send a [pull request](https://github.com/ccfddl/ccf-deadlines/pulls)
+- Send a [pull request](https://github.com/verrickt/ccf-deadlines/pulls)
 
-Tips: check [conferences recommended](.readme_assets/ccf_recommended.pdf) and review [statistics](https://docs.qq.com/sheet/DR3F1Tm1jcnlzVFJ2)
+Tips: check [conferences recommended](.readme_assets/ccf_recommended.pdf)
 ## Conference Entry File
 Example file: conference/DB/sigmod.yml
 
@@ -128,9 +126,10 @@ The matching table:
 | `MX`       | Interdiscipline/Mixture/Emerging                                            |
 
 ## Contribution
-Maintained by [@jacklightChen](https://github.com/jacklightChen), [@0x4f5da2](https://github.com/0x4f5da2), [@kzoacn](https://github.com/kzoacn), [@cubercsl](https://github.com/cubercsl).
+Maintained by [@verrickt](https://github.com/verrickt)
 
-Inspired by [ai-deadlines](https://aideadlin.es/).
+Based on [CCF-Deadlines](https://github.com/ccfddl/ccf-deadlines)
 
 ## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fccfddl%2Fccf-deadlines.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fccfddl%2Fccf-deadlines?ref=badge_large)
+
+MIT
