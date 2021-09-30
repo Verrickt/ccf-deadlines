@@ -1,0 +1,14 @@
+- title: DAC
+  description: Design Automation Conference
+  sub: DS
+  rank: A
+  dblp: dac
+  confs:
+    - year: 2022
+      id: dac22
+      link: https://www.dac.com/
+      timeline:
+          deadline: TBD
+      timezone: AoE
+      date: TBD
+      place: TBD
