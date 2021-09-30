@@ -1,0 +1,14 @@
+- title: ASE
+  description:  International Conference on Automated Software Engineering
+  sub: SE
+  rank: A
+  dblp: kbse
+  confs:
+    - year: 2022
+      id: ase22
+      link: https://conf.researchr.org/home/ase-2022
+      timeline:
+        - deadline: TBD
+      timezone: 
+      date: October 2-7, 2022
+      place: Ann Arbor, Michigan, United States
