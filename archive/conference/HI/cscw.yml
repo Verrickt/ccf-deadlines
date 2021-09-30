@@ -1,0 +1,14 @@
+- title: CSCW
+  description: ACM Conference on Computer Supported Cooperative Work and Social Computing
+  sub: HI
+  rank: A
+  dblp: cscw
+  confs:
+    - year: 2021
+      id: cscw21
+      link: https://cscw.acm.org/2021/
+      timeline:
+        - deadline: '2021-04-15 23:59:59'
+      timezone: AoE
+      date: TBD
+      place: Virtual
