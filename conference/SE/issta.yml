@@ -8,8 +8,9 @@
       id: issta22
       link: https://conf.researchr.org/home/issta-2022
       timeline:
-          deadline: '2022-01-28 23:59:59'
-          comments: 'Please re-check by December 2021 for any updates!'
+        - deadline: '2022-01-28 23:59:59'
+          comment: 'Please re-check by December 2021 for any updates!'
+
       timezone: AoE
       date:  July 18-22, 2022
       place: Daejeon, South Korea
