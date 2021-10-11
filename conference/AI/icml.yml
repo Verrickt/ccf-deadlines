@@ -4,16 +4,16 @@
   rank: A
   dblp: icml
   confs:
-    - year: 2021
-      id: icml21
-      link: https://icml.cc/Conferences/2021/
-      timeline:
-        - abstract_deadline: '2021-01-28 23:59:59'
-          deadline: '2021-02-04 23:59:59'
-          comment: 'Mandatory abstract deadline on Jan 28, 2021.'
-      timezone: UTC-12
-      date: July 18-24, 2021
-      place: Vienna, Austria
+    # - year: 2021
+    #   id: icml21
+    #   link: https://icml.cc/Conferences/2021/
+    #   timeline:
+    #     - abstract_deadline: '2021-01-28 23:59:59'
+    #       deadline: '2021-02-04 23:59:59'
+    #       comment: 'Mandatory abstract deadline on Jan 28, 2021.'
+    #   timezone: UTC-12
+    #   date: July 18-24, 2021
+    #   place: Vienna, Austria
     - year: 2022
       id: icml22
       link: https://icml.cc/Conferences/2022/
