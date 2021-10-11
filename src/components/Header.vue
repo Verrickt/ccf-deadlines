@@ -2,7 +2,7 @@
   <section>
     <el-row>
       <a href="/" class="title">AISec Conference Deadlines</a>
-      <span v-if="showLatestConf" style="color:#fd3c95;font-weight: bold; margin: 0 20px">Last Updated: {{this.showStr}}</span>
+      <span v-if="showLatestConf" style="color:#fd3c95;font-weight: bold; margin: 0 20px">Last Updated: {{this.showStr}} by <a href="https://github.com/verrickt">@verrickt</a></span>
     </el-row>
     <el-row class="subtitle">
       Countdowns to AISec conference deadlines. To add/edit a conference, <a style="color: #666666" href="https://github.com/ccfddl/ccf-deadlines/pulls">send a pull request.</a>
@@ -44,4 +44,11 @@ export default {
   padding-top: 15px;
   color: #666666;
 }
+
+a{
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  color: inherit;
+}
+
 </style>
