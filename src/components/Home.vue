@@ -332,7 +332,8 @@ export default {
     },
     formatSubName(item){
       if(this._isMobile()) {
-        return item.sub
+        // return item.sub
+        return item.name
       }else {
         return item.name
       }
