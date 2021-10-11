@@ -68,8 +68,8 @@
     </el-table>
     <el-row style="padding-top: 8px">
       <div style="float: left; color: #666666;font-size: 12px;">
-        <div>ccf-deadlines is maintained by <a href="https://github.com/jacklightChen">@jacklightChen</a> and <a href="https://github.com/0x4f5da2">@0x4f5da2</a>.</div>
-        <div style="padding-top: 3px">If you find it useful, try find <a href="https://github.com/0x4f5da2">him</a> a girlfriend.</div>
+        <div>AISec-deadlines is maintained by <a href="https://github.com/verrickt">@verrickt</a>.</div>
+        <div style="padding-top: 3px">Based on <a href="https://github.com/ccfddl/ccf-deadlines">CCF-Deadlines</a></div>
       </div>
       <div style="float: right">
         <el-pagination
