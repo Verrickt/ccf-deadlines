@@ -2,7 +2,7 @@
   <section>
     <Header></Header>
     <el-checkbox style="padding-top: 10px;width: 33%" :indeterminate="isIndeterminate" v-model="checkAll" @change="handleCheckAllChange"><span style="color: #666666">全选</span></el-checkbox>
-    <el-checkbox-group v-model="checkList" @change="handleCheckedChange">
+    <el-checkbox-group class="checkbox"  v-model="checkList" @change="handleCheckedChange">
       <el-checkbox class="boxes" size="medium" v-for="item in subList" :label="item.sub" :key="item.sub"><span style="color: #666666">{{formatSubName(item)}}</span></el-checkbox>
     </el-checkbox-group>
     <el-row class="timezone">
@@ -423,8 +423,30 @@ export default {
   padding-top: 1px;
 }
 
+.checkbox{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+}
+
+@media (max-width: 992px) {
+  .checkbox{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
+}
+}
+
+@media(min-width: 992px)
+{
+  .checkbox{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+}
+}
 .boxes{
-  width: 33%;
+  flex: 1 1 33%;
   margin-right: 0px;
   padding-top: 10px;
 }
