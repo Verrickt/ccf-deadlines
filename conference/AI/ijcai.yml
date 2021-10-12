@@ -8,7 +8,7 @@
       id: ijcai22
       link: https://ijcai-22.org/
       timeline:
-        - deadline: TBD
-      timezone: UTC-7
+        - deadline: '2022-01-14 23:59:59'
+      timezone: UTC-12
       date: July 23-29, 2022
       place: Vienna, Austria
