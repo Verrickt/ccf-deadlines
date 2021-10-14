@@ -9,9 +9,7 @@ jobs:
     steps:
       - name: Check env
         run: |
-          Write-Host $Env:GITHUB_REF
-          Write-Host $Env:secrets.ACCESS_TOKEN
-          Write-Host $Env:github.actor
+          Write-Host ${{github.actor}}
 
       - name: Checkout
         uses: actions/checkout@v2
