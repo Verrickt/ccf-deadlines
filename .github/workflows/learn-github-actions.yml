@@ -8,7 +8,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Check env
-      - run: |
+        run: |
           Write-Host $Env:GITHUB_REF
           Write-Host $Env:secrets.ACCESS_TOKEN
           Write-Host $Env:github.actor
