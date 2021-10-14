@@ -29,7 +29,7 @@ jobs:
           git init
           git add --all
           git config --global user.name "verrickt"
-          git config --global user.name "Adios_Verrickt@hotmail.com"
+          git config --global user.email "Adios_Verrickt@hotmail.com"
           $Time = (get-date -UFormat "%Y-%m-%d %H:%m:%S %Z")
           git commit -m "Site Update: $Time"
           git push --force https://$env:secrets.ACCESS_TOKEN@github.com/zju-cs-research/zju-cs-research.github.io 
