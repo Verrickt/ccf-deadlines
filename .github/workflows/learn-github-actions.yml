@@ -32,7 +32,7 @@ jobs:
           git config --global user.email "Adios_Verrickt@hotmail.com"
           $Time = (get-date -UFormat "%Y-%m-%d %H:%m:%S %Z")
           git commit -m "Site Update: $Time"
-          git push --force https://${{secrets.ACCESS_TOKEN}}@github.com/zju-cs-research/zju-cs-research.github.io 
+          git push --force https://${{secrets.ACCESS_TOKEN}}@github.com/zju-cs-research/zju-cs-research.github.io master:main
 
   check-bats-version:
     runs-on: ubuntu-latest
