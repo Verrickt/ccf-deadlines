@@ -27,7 +27,7 @@ jobs:
         run: |
           cd dist
           git init
-          git add -all
+          git add --all
           git config --global user.name "verrickt"
           git config --global user.name "Adios_Verrickt@hotmail.com"
           $Time = (get-date -UFormat "%Y-%m-%d %H:%m:%S %Z")
