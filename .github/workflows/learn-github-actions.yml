@@ -16,6 +16,9 @@ jobs:
       - name: Install dependency
         run: |
           yarn install
+      - name: Setup Authors
+        run: |
+          git config --global user.name "$env:github.actor"
       - name: Build
         shell: powershell
         run: |
