@@ -7,6 +7,12 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
+      - name: Check env
+      - run: |
+          Write-Host $Env:GITHUB_REF
+          Write-Host $Env:secrets.ACCESS_TOKEN
+          Write-Host $Env:github.actor
+
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Node.js environment
