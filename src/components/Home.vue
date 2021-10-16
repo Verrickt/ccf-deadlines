@@ -447,7 +447,7 @@ export default {
 }
 .boxes{
   flex: 1 1 33%;
-  margin-right: 0px;
+  /* margin-right: 0px; */
   padding-top: 10px;
 }
 
