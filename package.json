@@ -17,7 +17,8 @@
     "moment-timezone": "^0.5.32",
     "vue": "^2.6.11",
     "vue-ls": "^3.2.2",
-    "vue-resource": "^1.5.1"
+    "vue-resource": "^1.5.1",
+    "yarn": "^1.22.17"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
