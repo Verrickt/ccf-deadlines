@@ -16,7 +16,7 @@
       id: iccv22
       link: https://waset.org/computer-vision-conference-in-january-2022-in-istanbul
       timeline:
-        - deadline: '2021-12-01'
+        - deadline: '2021-12-01 23:59:59'
       timezone: UTC-7
       date: January 28-29, 2022
       place: Istanbul, Turkey
